@@ -46,7 +46,7 @@ body {
   color: var(--highlight-color);
 }
 
-.page-nav a {
+.nav-link {
   color: var(--title-text-color);
   text-decoration: none;
   font-size: 14px;
@@ -55,16 +55,12 @@ body {
   letter-spacing: 0.02em;
 }
 
-.page-nav .current {
+.nav-link.current {
   color: var(--highlight-color);
 }
 
-.page-nav a:hover,
-.page-nav a:focus {
-  color: var(--highlight-color);
-}
-
-.page-nav .current {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--highlight-color);
 }
 
@@ -77,8 +73,8 @@ body {
   letter-spacing: 0.02em;
 }
 
-.auth-nav a:hover,
-.auth-nav a:focus {
+.auth-link:hover,
+.auth-link:focus {
   color: var(--highlight-color);
 }
 
@@ -89,7 +85,7 @@ body {
   height: 600px;
 }
 
-.hero h1 {
+.hero-title {
   color: var(--secondary-text-color);
   font-weight: 900;
   font-size: 44px;
@@ -113,19 +109,19 @@ body {
   height: 50px;
 }
 
-.main h2 {
+.title {
   color: var(--title-text-color);
   font-size: 36px;
   line-height: 1.667;
 }
 
-.advantages h3 {
+.advantages-item {
   color: var(--title-text-color);
   font-size: 14px;
   line-height: 1.14;
 }
 
-.advantages p {
+.advantages-descr {
   font-size: 14px;
   line-height: 1.7;
 }
@@ -134,7 +130,7 @@ body {
   background: var(--section-bgd-color);
 }
 
-.team h3 {
+.team-member {
   color: var(--title-text-color);
   font-size: 16px;
   line-height: 1.19;
@@ -143,14 +139,14 @@ body {
   letter-spacing: 0.03em;
 }
 
-.team p {
+.team-member-position {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
-.team ul {
+.team .list {
   width: 270px;
   padding: 0;
   background: var(--secondary-text-color);
@@ -167,7 +163,7 @@ body {
   color: var(--secondary-text-color);
 }
 
-.contacts a {
+.contacts-link {
   color: var(--secondary-text-color);
   text-decoration: none;
   font-size: 14px;
@@ -175,19 +171,19 @@ body {
   font-style: normal;
 }
 
-.contacts a:hover,
-.contacts a:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--highlight-color);
 }
 
-.page-footer h3 {
+.join-us {
   color: var(--secondary-text-color);
   font-size: 14px;
   line-height: 1.15;
   text-transform: uppercase;
 }
 
-.gallery button {
+.btn {
   color: var(--title-text-color);
   background-color: var(--section-bgd-color);
   font-weight: 500;
@@ -200,28 +196,28 @@ body {
   border: none;
 }
 
-.gallery button:hover,
-.gallery button:focus {
+.btn:hover,
+.btn:focus {
   background: var(--highlight-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   color: var(--secondary-text-color);
 }
 
-.projects h2 {
+.project-name {
   color: var(--title-text-color);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
-.projects p {
+.project-type {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
-.projects li {
+.project-item {
   box-sizing: border-box;
   width: 370px;
   height: 404px;
